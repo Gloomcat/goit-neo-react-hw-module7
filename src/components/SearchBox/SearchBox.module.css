@@ -1,0 +1,12 @@
+.search {
+  width: 300px;
+  padding: 5px;
+  border: 2px solid #aaaaaa;
+  border-radius: 3px;
+  outline: none;
+}
+
+.search:focus,
+.search:active {
+  border-color: black;
+}

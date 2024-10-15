@@ -1,0 +1,36 @@
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.field {
+  padding: 5px;
+  border: 2px solid #aaaaaa;
+  border-radius: 3px;
+  outline: none;
+}
+
+.field:focus,
+.field:active {
+  border-color: black;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  align-self: center;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

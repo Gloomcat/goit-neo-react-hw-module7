@@ -1,0 +1,23 @@
+.contact {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.contact ul {
+  flex-grow: 1;
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact button {
+  padding: 5px;
+}
